@@ -1,5 +1,5 @@
 module QuantLib.Time.Calendars.Czech
-        ( module QuantLib.Time.Calendars.Czech
+        ( CzechCalendar(..)
         ) where
 
 import QuantLib.Time.Date
