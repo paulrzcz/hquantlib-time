@@ -1,6 +1,6 @@
 cabal-version:  3.0
 name:           hquantlib-time
-version:        0.1.0
+version:        0.1.2
 license:        LGPL-3.0-or-later
 license-file:   LICENSE
 author:         Pavel Ryzhov
@@ -35,6 +35,9 @@ library
                 QuantLib.Time
                 QuantLib.Time.Date
                 QuantLib.Time.DayCounter
+        
+        other-modules:
+                Quantlib.Time.Calendars.Czech
 
         build-depends:
                         base                    >3              && <5,
